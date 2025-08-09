@@ -28,7 +28,8 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(6, 1)
+        Button1.Location = New Point((ClientSize.Width - Button1.Width) \ 2, 1)
+        Button1.Anchor = AnchorStyles.Top
         Button1.Name = "Button1"
         Button1.Size = New Size(170, 24)
         Button1.TabIndex = 0
